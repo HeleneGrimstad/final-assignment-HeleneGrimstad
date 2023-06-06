@@ -131,9 +131,24 @@ h3 {
   justify-content: space-around;
   align-items: center;
   height: 150px;
+  margin-top: 20px;
   background-color: black;
   color: white;
-  margin-top: 40px;
+  animation-name: colorChange;
+  animation-duration:3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes colorChange {
+  0% {
+    color: white;
+  }
+  50% {
+    color: #1e90ff;
+  }
+  100% {
+    color: white;
+  }
 }
 
 .footer > a {
