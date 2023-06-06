@@ -1,0 +1,2 @@
+First I created the html for the calendar page,
+then the meta tags were added. The page was styled in CSS, and made responsive. After I was happy with the design, I added the second html, the homepage, and added some animations in the footer.
